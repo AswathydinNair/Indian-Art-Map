@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f1e8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+main {
+    padding: 0 20px 20px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.popup-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+/* Popup card */
+
+.art-popup {
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.art-popup h2 {
+    margin: 5px 0 4px;
+    font-size: 22px;
+}
+
+.art-popup .location {
+    margin: 0 0 12px;
+    font-size: 13px;
+    color: #666;
+}
+
+.art-popup h4 {
+    margin: 14px 0 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.art-popup p {
+    margin: 4px 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.art-popup ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.art-popup li {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
